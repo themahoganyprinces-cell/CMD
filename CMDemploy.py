@@ -12,7 +12,7 @@ DATA_DIR = os.environ.get(
     os.path.join(os.path.dirname(os.path.abspath(__file__)), "data"),
 )
 EMPLOYEES_FILE = os.path.join(DATA_DIR, 'CrownMahoganyDetailingEmployees.json')
-DISTRICT_FILE  = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'DistrictCodes.json')
+DISTRICT_FILE  = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'DistrictCodes.json')
 UPLOAD_FOLDER  = os.path.join(DATA_DIR, 'uploads', 'employees')
 SERVICES_FILE  = os.path.join(DATA_DIR, 'CrownMahoganyDetailingServices.json')
 
